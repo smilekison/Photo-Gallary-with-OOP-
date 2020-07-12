@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmltable.xsl"?>
+<users>
+  <user>
+    <user_id>1</user_id>
+    <fullname>admin</fullname>
+    <username>admin</username>
+    <email>admin@gmail.com</email>
+  </user>
+  <user>
+    <user_id>2</user_id>
+    <fullname>hello</fullname>
+    <username>sagar</username>
+    <email>sagar@gmail.com</email>
+  </user>
+  <user>
+    <user_id>3</user_id>
+    <fullname>SmkKison</fullname>
+    <username>SmkKison</username>
+    <email>smilekishan.sk@gmail.com</email>
+  </user>
+</users>

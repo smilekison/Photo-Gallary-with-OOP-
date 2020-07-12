@@ -1,0 +1,193 @@
+.container-fluid{
+	margin-top: 25px;
+}
+
+.card-header{
+	background-color: skyblue;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+.mapContainer{
+    width:100%;
+    position: relative;
+}
+.mapContainer a.direction-link {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100010;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 8px 20px 8px 50px;
+    background: #0094de;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.mapContainer a.direction-link:hover {
+    text-decoration: none;
+    background: #0072ab;
+    color: #FFF;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}
+
+ .slider {
+width: 100%;
+}
+
+.slider ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.slider li img {
+width: 100%;
+border: none;
+} 
+
+ .slider {
+width: 100%;
+overflow: hidden;
+height: 300px;
+position: relative;
+}
+
+.slider ul {
+margin: 0;
+padding: 0;
+list-style: none;
+position: absolute;
+width: 300%;
+height: 100%;
+top: 0;
+}
+
+.slider li {
+padding: 0;
+margin: 0;
+width: 33.333333%;
+height: 100%;
+overflow: hidden;
+position: absolute;
+top: 0;
+bottom: 0;
+}
+
+.slider li img {
+border: none;
+width: 100%;
+min-height: 100%;
+} 
+
+ .slider button {
+position: absolute;
+display: block;
+box-sizing: border-box;
+border: none;
+outline: none;
+top: 0;
+bottom: 0;
+width: 20%;
+background-color: rgba(0, 0, 0, 0.3);
+color: #fff;
+margin: 0;
+padding: 0;
+text-align:center;
+opacity: 0;
+z-index: 2;
+}
+
+.slider button.prev {
+left: 0;
+}
+
+.slider button.next {
+right: 0;
+}
+
+.slider button:hover, .slider button:active {
+opacity: 1.0;
+}
+
+.image-container {
+  margin: 0 auto;
+  width: 90%;
+  border-color: grey;
+  border-width: 2px;
+  background-color: #fff;
+  min-height: 280px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.editor{
+  height: 500px !important;
+}
+
+#facebook-image{
+  height: 120px;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: -25px;
+
+}
+
+.gsc-control-cse {
+  width: 400px !important;
+  border-color: #f8f9fa !important;
+  background-color: #f8f9fa !important;
+}
+
+.gsc-search-button{
+  border-color: #000000 !important;
+  background-color: #ABABAB !important;
+  background-image: none !important;
+  filter: none !important;
+  margin-top: -15px !important;
+}
