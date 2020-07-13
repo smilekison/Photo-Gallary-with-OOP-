@@ -14,8 +14,8 @@ use Facebook\Exceptions\FacebookSDKException;
 /*
  * Configuration and setup Facebook SDK
  */
-$appId         = '221709268962368'; //Facebook App ID
-$appSecret     = '2930c4a8032c053e1ff14659b1f2c1c5'; //Facebook App Secret
+$appId         = '$appId'; //Facebook App ID
+$appSecret     = '$appSecret'; //Facebook App Secret
 $redirectURL   = 'https://localhost/checkpoint2/loginwithfb.php/'; //Callback URL
 $fbPermissions = array('email');  //Optional permissions
 
